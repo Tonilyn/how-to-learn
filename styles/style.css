@@ -360,13 +360,6 @@
     margin: 0;
 }
 
-/*
-.footer__column_content_info {
-}
-
-.footer__column_content_social {
-} */
-
 .footer__column-heading {
     margin-top: 0;
     padding: 0;
@@ -396,12 +389,3 @@
     size: 16 px 16px;
     margin-right: 10px;
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента 
-.header__square-pic {
-    height: 568px;
-    width: 568px;
-}*/
-
-/* и элемента с модификатором вида ключ-значение 
-.table__cell_theme_dark */

@@ -15,8 +15,13 @@
     max-height: 756px;
     background-color: #F2F2F2;
     display: flex;
-    position: relative
+    position: relative;
+    overflow: hidden;
     /* выше установили ограничения для секции */
+}
+
+.header__link:hover, .feinman__link:hover, .footer__link:hover {
+    color: #e6005c;
 }
 
 .logo {
@@ -58,24 +63,19 @@
   z-index: 3;
 }
 
-.header-link {
+.header__link {
     text-decoration: none;
-    color: #2F80ED;
+    color: #2F80ED; 
 }
 
 .header__main-illustration {
     width: 765px;
     height: 608px;
     position: absolute;
+    object-fit: cover;
     right: 0;
     bottom: 0;
     z-index: 1;
-}
-
-.main-illustration_position {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .header__square-pic {
@@ -191,7 +191,7 @@
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
-	margin: 20px 0 0;
+    margin: 20px 0 0; 
 }
 
 .feinman {
@@ -320,7 +320,6 @@
     min-height: 350px;
     display: flex;
     justify-content: center;
-    flex-basis: 711px;
     background-color:  #1F1F1F;
 }
 
@@ -334,20 +333,20 @@
     position: relative;
 }
 
+.footer__column_content_copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 711px;
+}
+
 .logo_place_footer {
     width: 185px;
     height: 35px;
-    top: 0;
-    left: 0;
     background-image: url(../images/logo_white.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    align-self: center;
-}
-
-.footer__column_content_copyright {
-    align-self: flex-end;
 }
 
 .footer__author {
@@ -358,6 +357,7 @@
     padding-top: 18px;
     padding-bottom: 18px;
     margin: 0;
+    align-self: flex-end;
 }
 
 .footer__column-heading {

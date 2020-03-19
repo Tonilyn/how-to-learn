@@ -8,6 +8,8 @@
 
 .footer {
     min-height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
    /* justify-content: center; */
     background-color:  #1F1F1F;

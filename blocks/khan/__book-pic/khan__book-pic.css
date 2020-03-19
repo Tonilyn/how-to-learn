@@ -3,7 +3,9 @@
     margin-right: 20px;
     width: 620px;
     height: 698px;
-    object-fit: cover;
-    object-position: top;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
     overflow: hidden;
 }

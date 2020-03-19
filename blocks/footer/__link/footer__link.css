@@ -1,15 +1,9 @@
 .footer__link {
     text-decoration: none;
     color: white;
+    -webkit-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
     transition: color 1s ease-out;
-}
-
-.footer__link:link {
-    color: white; 
-}
-
-.footer__link:visited {
-    color: darkgray;
 }
 
 .footer__link:hover {

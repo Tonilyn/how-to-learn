@@ -3,7 +3,9 @@
     padding: 0;
     padding-bottom: 16px;
     color: white;
-    align-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;

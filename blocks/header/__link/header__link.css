@@ -1,15 +1,9 @@
 .header__link {
     text-decoration: none;
     color: #2F80ED; 
+    -webkit-transition: color 1s ease-out; 
+    -o-transition: color 1s ease-out; 
     transition: color 1s ease-out;
-}
-
-.header__link:link {
-    color: #2F80ED;
-}
-
-.header__link:visited {
-    color: darkgray;
 }
   
 .header__link:hover {

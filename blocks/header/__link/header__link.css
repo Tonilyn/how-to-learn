@@ -1,8 +1,17 @@
-.header__link:hover {
-    color: #e6005c;
-}
-
 .header__link {
     text-decoration: none;
     color: #2F80ED; 
+    transition: color 1s ease-out;
+}
+
+.header__link:link {
+    color: #2F80ED;
+}
+
+.header__link:visited {
+    color: darkgray;
+}
+  
+.header__link:hover {
+    color: #e6005c;
 }

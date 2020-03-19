@@ -1,8 +1,17 @@
-.footer__link:hover {
-    color: #e6005c;
-}
-
 .footer__link {
     text-decoration: none;
     color: white;
+    transition: color 1s ease-out;
+}
+
+.footer__link:link {
+    color: white; 
+}
+
+.footer__link:visited {
+    color: darkgray;
+}
+
+.footer__link:hover {
+  color: #e6005c;
 }

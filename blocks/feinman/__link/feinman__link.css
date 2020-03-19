@@ -8,7 +8,16 @@
     font-weight: normal;
     text-decoration: none;
     color: #000;
+    transition: color 1s ease-out;
 }
+
+.feinman__link:link {
+    color: #000;
+}
+
+.feinman__link:visited {
+    color: darkgray;
+  }
 
 .feinman__link:hover {
     color: #e6005c;

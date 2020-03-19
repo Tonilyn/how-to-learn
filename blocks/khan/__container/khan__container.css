@@ -1,8 +1,6 @@
-@import url(./__iframe/video__iframe.css);
-@import url(./__iframes/video__iframes.css);
-
-.video {
-    margin: 0 auto;
+.khan__container {
+    margin: 0 auto 0;
+    width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

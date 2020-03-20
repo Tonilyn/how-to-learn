@@ -10,9 +10,9 @@
   color: #2F80ED; 
   -webkit-transition: color 1s ease-out; 
   -o-transition: color 1s ease-out; 
-  transition: color 1s ease-out;
+  transition: opacity 1s ease-out;
 }
 
 .khan__buy-link:hover {
-color: #e6005c;
+  opacity: 0.3;
 }

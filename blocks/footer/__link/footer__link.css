@@ -3,9 +3,9 @@
     color: white;
     -webkit-transition: color 1s ease-out;
     -o-transition: color 1s ease-out;
-    transition: color 1s ease-out;
+    transition: opacity 1s ease-out;
 }
 
 .footer__link:hover {
-  color: #e6005c;
+  opacity: 0.3;
 }
